@@ -1,0 +1,28 @@
+# UNEED microgrid-positioning pipeline — Python dependencies
+# -----------------------------------------------------------------
+# Python: 3.13.2 (Windows Store build, run inside a venv)
+# pip:    25.0.1
+# Desktop GIS (not pip-installable): QGIS 3.36 "Maidenhead" — used to
+#         render the UNEED GeoJSON outputs into the paper's map figures.
+#
+# Install with:   pip install -r requirements.txt
+# -----------------------------------------------------------------
+
+# --- Core ---
+osmnx==2.0.2
+
+# --- GIS / geospatial stack ---
+geopandas==1.0.1        # vector dataframes
+shapely==2.1.0          # geometry engine
+pyproj==3.7.1           # CRS / projections (EPSG:4326, EPSG:3763)
+pyogrio==0.10.0         # vector I/O (GeoPandas default engine here)
+rasterio==1.4.3         # raster I/O
+affine==2.4.0           # raster transforms
+networkx==3.4.2         # graph analysis (OSMnx dependency)
+overpy==0.7             # Overpass API client
+
+# --- Supporting scientific stack ---
+numpy==2.2.3
+pandas==2.2.3
+matplotlib==3.10.1      # plot_uneed_by_parish.py
+requests==2.32.3

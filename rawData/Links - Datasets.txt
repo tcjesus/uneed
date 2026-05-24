@@ -1,0 +1,38 @@
+Income: https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0012748&contexto=bd&selTab=tab2&xlang=PT
+
+
+
+
+Wind: https://power.larc.nasa.gov/data-access-viewer/
+*https://globalwindatlas.info/en/
+
+
+
+
+
+GHI: https://power.larc.nasa.gov/data-access-viewer/
+ALLSKY_SFC_SW_DWN     CERES SYN1deg All Sky Surface Shortwave Downward Irradiance (kW-hr/m^2/day) 
+O GHI (Global Horizontal Irradiance) é, por definição, a potência da radiação solar de onda‑curta incidente sobre uma superfície horizontal na estação (incluindo direta + difusa), em condições all‐sky (com nuvens).
+
+Dos parâmetros que você listou, o que mais “se aproxima” fisicamente do GHI é: Clear Sky Surface Shortwave Downward Irradiance
+
+porque ele também representa a irradiância de onda‑curta (toda a faixa solar) medida no nível do solo, sobre plano horizontal. A única diferença é que ele é calculado para céu limpo (clear sky), sem levar em conta atenuação por nuvens. Para obter justamente o GHI em todas as condições de tempo, a prática comum é:
+
+* Tomar o Clear Sky Downward Irradiance (I<sub>cs</sub>);
+* Multiplicar pelo All Sky Insolation Clearness Index (k<sub>T</sub>), que é a razão entre o GHI real e o GHI clear‐sky.
+
+Ou seja:  GHIall‑sky ≈ 𝐼𝑐𝑠 × 𝑘𝑇
+
+​
+
+
+
+
+Temp: https://power.larc.nasa.gov/data-access-viewer/
+NASA/POWER Source Native Resolution Daily Data 
+Dates (month/day/year): 01/01/2024 through 12/31/2024 in LST
+Location: Regional 
+elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = na meters
+The value for missing source data that cannot be computed or is outside of the sources availability range: -999 
+parameter(s): 
+T2M     MERRA-2 Temperature at 2 Meters (C) 
