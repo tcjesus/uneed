@@ -189,6 +189,19 @@ The intra-index weights (e.g. `ALPHA_SOLAR`/`ALPHA_WIND`) are also defined there
 
 If you use this code, please cite the UNEED paper:
 
+
+```bibtex
+@inproceedings{Beaulieu2026Robustness,
+  author    = {Beaulieu, T. L. and Jesus, T. C. and Catal{\~a}o, J. P. S.},
+  title     = {Robustness of a Data-Driven Geospatial Index for Urban Microgrid Siting Under Resilience and Equity Criteria},
+  booktitle = {2026 2nd International Conference on Power Engineering and Electrical Technology (PEET)},
+  address   = {Osaka, Japan},
+  year      = {2026},
+  note      = {Accepted for publication and presentation}
+}
+```
+
+<!--
 ```bibtex
 @inproceedings{jesus2026uneed,
   author    = {Jesus, Thiago C. and Santos, S{\'e}rgio F. and Bittencourt, Jo{\~a}o Carlos N. and
@@ -198,6 +211,7 @@ If you use this code, please cite the UNEED paper:
   note      = {Forthcoming}
 }
 ```
+-->
 
 > Update the `@inproceedings` venue/pages once publication details are final.
 
